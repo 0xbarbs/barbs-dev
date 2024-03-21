@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff, #1e6030);
+}
+
+.avatar {
+  border-radius: 16px;
+  border: 5px solid black;
+
+  @media all and (max-width: 450px) {
+    width: 300px !important;
+    height: 300px !important;
+    //max-width: 250px !important;
+    //max-height: 250px !important;
+  }
+}
+
+.buttons {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
